@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Solution {
+	
+	public static void main(String args[]) {
+		
+		
+	
+ Scanner sc = new Scanner(System.in);
+		
+		int length, breadth;
+        length = sc.nextInt();
+        breadth = sc.nextInt();
+        int area = length * breadth;
+        
+        System.out.println(area);
+	}
+}
+
+
+Sample Test Case: 
+Input- 4 5
+Output- 20
